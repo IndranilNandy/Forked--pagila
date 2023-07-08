@@ -1,0 +1,14 @@
+@@startuml
+' !includeurl https://raw.githubusercontent.com/inthepocket/plantuml-styles/master/styles.plantuml!0
+class Person {
+    + name: String
+    - id: Long
+    + construct()
+}
+
+class Employee {
+    + company: String
+
+}
+Person <|-- Employee
+@@enduml
